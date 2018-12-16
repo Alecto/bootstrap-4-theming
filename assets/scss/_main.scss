@@ -2,18 +2,18 @@ body {
     padding-top: 120px;
 
     @media (min-width: 768px) {
-        >.navbar-transparent {
-            box-shadow: none
+        > .navbar-transparent {
+            box-shadow: none;
         }
 
-        >.navbar-transparent .navbar-nav>.open>a {
-            box-shadow: none
+        > .navbar-transparent .navbar-nav > .open > a {
+            box-shadow: none;
         }
     }
 }
 
 pre {
-    background: #f7f7f9
+    background: #f7f7f9;
 }
 
 .bs-docs-section {
@@ -21,61 +21,67 @@ pre {
 
     .page-header h1 {
         padding: 2rem 0;
-        font-size: 3rem
+
+        font-size: 3rem;
     }
 }
 
 .bs-component {
-    position: relative
+    position: relative;
 }
 
-.bs-component+.bs-component {
-    margin-top: 1rem
+.bs-component + .bs-component {
+    margin-top: 1rem;
 }
 
 .bs-component .card {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .bs-component .modal {
     position: relative;
+    z-index: 1;
     top: auto;
     right: auto;
-    left: auto;
     bottom: auto;
-    z-index: 1;
-    display: block
+    left: auto;
+
+    display: block;
 }
 
 .bs-component .modal-dialog {
-    width: 90%
+    width: 90%;
 }
 
 .bs-component .popover {
     position: relative;
+
     display: inline-block;
+
     width: 220px;
-    margin: 20px
+    margin: 20px;
 }
 
 #source-button {
     position: absolute;
+    z-index: 100;
     top: 0;
     right: 0;
-    z-index: 100;
-    font-weight: bold
+
+    font-weight: bold;
 }
 
 #source-modal pre {
     max-height: calc(100vh - 11rem);
+
+    color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.7);
-    color: rgba(255, 255, 255, 0.7)
 }
 
 .nav-tabs {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .progress {
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
